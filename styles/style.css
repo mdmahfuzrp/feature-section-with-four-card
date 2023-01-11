@@ -4,4 +4,87 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: #4C4D60;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.feature-section{
+    display: flex;
+    flex-direction: column;
+}
+.feature-section .feature-info{
+    margin-bottom: 130px;
+}
+.feature-section .section-title{
+    font-size: 30px;
+    letter-spacing: .1px;
+    color: #4C4D60;
+    line-height: 45px;
+}
+.feature-section .section-title.first{
+    font-weight: 300;
+    letter-spacing: normal;
+    color: #00000078;
+}
+.feature-section .section-description{
+    margin: 20px 0 30px 0;
+    color: #0000004d;
+    font-weight: 600;
+    font-size: 13px;
+}
+.feature-section .feature-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px auto 250px;
+    align-items: center;
+}
+.feature-card .card{
+    box-shadow: -1px 15px 20px 0px #dfdcdcad;
+    margin-right: 25px;
+    padding: 20px 25px;
+    text-align: left;
+    border-radius: 5px;
+}
+.feature-card .first{
+    border-top: 4px solid #3CC1BF;
+}
+.feature-card .fourth{
+    border-top: 4px solid #4D8FD9;
+}
+.feature-card .card .card-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.feature-card .card .card-description{
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.614);
+    font-weight: 500;
+}
+.feature-card .card:last-child{
+    margin-right: 0;
+}
+.feature-card .card .card-img{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.mid-card{
+    display: flex;
+    flex-direction: column;
+}
+.mid-card .third{
+    border-top: 4px solid #EA5452 !important;
+}
+.mid-card .mid-bottom-card{
+    margin-right: 25px !important;
+    margin-top: 25px;
+    border-top: 4px solid #FBAD4B !important;
 }
