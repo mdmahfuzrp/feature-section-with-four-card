@@ -24,10 +24,11 @@ body{
     margin-bottom: 130px;
 }
 .feature-section .section-title{
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: .1px;
     color: #4C4D60;
     line-height: 45px;
+    font-weight: 600;
 }
 .feature-section .section-title.first{
     font-weight: 300;
@@ -38,7 +39,7 @@ body{
     margin: 20px 0 30px 0;
     color: #0000004d;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
 }
 .feature-section .feature-card{
     display: grid;
