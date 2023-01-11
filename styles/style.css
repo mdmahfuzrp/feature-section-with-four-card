@@ -18,6 +18,7 @@ body{
 .feature-section{
     display: flex;
     flex-direction: column;
+    margin-top: 90px;
 }
 .feature-section .feature-info{
     margin-bottom: 130px;
